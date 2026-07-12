@@ -20,7 +20,7 @@ endif
 KDIR ?= /usr/lib/modules/$(KVER)/build
 
 default:
-	$(MAKE) -C $(KDIR) M=$(PWD)
+	@$(MAKE) -C $(KDIR) M=$(PWD)
 
 clean:
-	$(MAKE) -C $(KDIR) M=$(PWD) clean
+	@$(MAKE) -C $(KDIR) M=$(PWD) clean
