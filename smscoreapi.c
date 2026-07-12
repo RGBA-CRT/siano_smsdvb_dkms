@@ -2155,6 +2155,7 @@ module_exit(smscore_module_exit);
 MODULE_DESCRIPTION("Siano MDTV Core module");
 MODULE_AUTHOR("Siano Mobile Silicon, Inc. (uris@siano-ms.com)");
 MODULE_LICENSE("GPL");
+MODULE_VERSION("1.0-print_isd_patch");
 
 /* This should match what's defined at smscoreapi.h */
 MODULE_FIRMWARE(SMS_FW_ATSC_DENVER);

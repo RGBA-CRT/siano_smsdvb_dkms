@@ -1271,3 +1271,4 @@ module_exit(smsdvb_module_exit);
 MODULE_DESCRIPTION("SMS DVB subsystem adaptation module");
 MODULE_AUTHOR("Siano Mobile Silicon, Inc. (uris@siano-ms.com)");
 MODULE_LICENSE("GPL");
+MODULE_VERSION("1.0-print_isd_patch");
